@@ -1,0 +1,919 @@
+2021-04-28 16:44:18 INFO  LogLog4j:62 - 
+2021-04-28 16:44:18 INFO  LogLog4j:62 - *********************************************************************************
+2021-04-28 16:44:18 INFO  LogLog4j:62 - *********************************************************************************
+2021-04-28 16:44:18 INFO  LogLog4j:62 -                                 PROJECT NAME: SmartShTest
+2021-04-28 16:44:18 INFO  LogLog4j:62 - *********************************************************************************
+2021-04-28 16:44:18 INFO  LogLog4j:62 - *********************************************************************************
+2021-04-28 16:44:18 INFO  LogLog4j:62 - 
+2021-04-28 16:44:27 INFO  LogLog4j:16 - 
+2021-04-28 16:44:27 INFO  LogLog4j:17 - 
+2021-04-28 16:44:27 INFO  LogLog4j:18 - ********************************************************************************
+2021-04-28 16:44:27 INFO  LogLog4j:19 -                    Test Case: acceptanceTest1
+2021-04-28 16:44:27 INFO  LogLog4j:20 - ********************************************************************************
+2021-04-28 16:44:27 INFO  LogLog4j:38 - 
+2021-04-28 16:44:27 INFO  LogLog4j:39 - ##########################################################################
+2021-04-28 16:44:27 INFO  LogLog4j:40 -     Business Partner: Login and create new action (oil695)      
+2021-04-28 16:44:27 INFO  LogLog4j:41 - ##########################################################################
+2021-04-28 16:44:27 INFO  LogLog4j:42 - 
+2021-04-28 16:44:27 INFO  LogLog4j:43 - 
+2021-04-28 16:44:27 INFO  LogLog4j:47 - 
+2021-04-28 16:44:27 INFO  LogLog4j:48 - ======> Method started: 'LoginPageHelper, comeIn()'
+2021-04-28 16:44:27 INFO  LogLog4j:49 - 
+2021-04-28 16:44:27 INFO  LogLog4j:62 - login = aron
+2021-04-28 16:44:27 INFO  LogLog4j:62 - password = 123
+2021-04-28 16:44:27 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/fldLogin]
+2021-04-28 16:44:28 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/fldLogin]
+2021-04-28 16:44:28 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/fldEditPassword]
+2021-04-28 16:44:29 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/fldEditPassword]
+2021-04-28 16:44:29 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/linkComeIn]
+2021-04-28 16:44:29 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/linkComeIn]
+2021-04-28 16:44:29 INFO  LogLog4j:47 - 
+2021-04-28 16:44:29 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, waitUntilPageIsLoaded()'
+2021-04-28 16:44:29 INFO  LogLog4j:49 - 
+2021-04-28 16:44:30 INFO  LogLog4j:62 - Exception: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIVOBOOKS14', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, databaseEnabled: false, desired: {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, deviceName: AndroidTestDevice, platformName: android, platformVersion: 8.1.0}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 60, takesScreenshot: true, viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 66ad7d56-fd78-4d73-8605-1a49ebc6265c
+*** Element info: {Using=id, value=club.conim.hahamim:id/cabModerMembers}
+2021-04-28 16:44:31 INFO  LogLog4j:47 - 
+2021-04-28 16:44:31 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, openCreateNewAction()'
+2021-04-28 16:44:31 INFO  LogLog4j:49 - 
+2021-04-28 16:44:31 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/cabmBtnCreateAction]
+2021-04-28 16:44:31 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/cabmBtnCreateAction]
+2021-04-28 16:44:31 INFO  LogLog4j:47 - 
+2021-04-28 16:44:31 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, waitUntilPageIsLoaded()'
+2021-04-28 16:44:31 INFO  LogLog4j:49 - 
+2021-04-28 16:44:32 INFO  LogLog4j:62 - Exception: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIVOBOOKS14', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, databaseEnabled: false, desired: {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, deviceName: AndroidTestDevice, platformName: android, platformVersion: 8.1.0}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 60, takesScreenshot: true, viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 66ad7d56-fd78-4d73-8605-1a49ebc6265c
+*** Element info: {Using=id, value=club.conim.hahamim:id/productName}
+2021-04-28 16:44:33 INFO  LogLog4j:47 - 
+2021-04-28 16:44:33 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, fillGoodRequisites()'
+2021-04-28 16:44:33 INFO  LogLog4j:49 - 
+2021-04-28 16:44:33 INFO  LogLog4j:62 - name = oil695
+2021-04-28 16:44:33 INFO  LogLog4j:62 - category = Food
+2021-04-28 16:44:33 INFO  LogLog4j:62 - subCategory = Delicacies
+2021-04-28 16:44:33 INFO  LogLog4j:62 - measure = kg
+2021-04-28 16:44:33 INFO  LogLog4j:62 - purchase = Vegetables
+2021-04-28 16:44:33 INFO  LogLog4j:47 - 
+2021-04-28 16:44:33 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, waitUntilPageIsLoaded()'
+2021-04-28 16:44:33 INFO  LogLog4j:49 - 
+2021-04-28 16:44:34 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/productName]
+2021-04-28 16:44:34 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/productName]
+2021-04-28 16:44:34 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/productName]
+2021-04-28 16:44:35 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/productName]
+2021-04-28 16:44:35 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/productName]
+2021-04-28 16:44:36 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/productName]
+2021-04-28 16:44:37 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/autoCompleteGoodsCategory]
+2021-04-28 16:44:37 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/autoCompleteGoodsCategory]
+2021-04-28 16:44:37 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsCategory]
+2021-04-28 16:44:38 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsCategory]
+2021-04-28 16:44:38 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsCategory]
+2021-04-28 16:44:39 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsCategory]
+2021-04-28 16:44:40 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/autoCompleteGoodsSubcategory]
+2021-04-28 16:44:41 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/autoCompleteGoodsSubcategory]
+2021-04-28 16:44:41 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsSubcategory]
+2021-04-28 16:44:41 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsSubcategory]
+2021-04-28 16:44:42 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsSubcategory]
+2021-04-28 16:44:42 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsSubcategory]
+2021-04-28 16:44:43 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/autoCompleteMeasureUnit]
+2021-04-28 16:44:43 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/autoCompleteMeasureUnit]
+2021-04-28 16:44:43 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompleteMeasureUnit]
+2021-04-28 16:44:44 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompleteMeasureUnit]
+2021-04-28 16:44:44 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompleteMeasureUnit]
+2021-04-28 16:44:45 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompleteMeasureUnit]
+2021-04-28 16:44:46 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/autoCompletePurchase]
+2021-04-28 16:44:47 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/autoCompletePurchase]
+2021-04-28 16:44:47 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompletePurchase]
+2021-04-28 16:44:47 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompletePurchase]
+2021-04-28 16:44:48 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompletePurchase]
+2021-04-28 16:44:48 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompletePurchase]
+2021-04-28 16:44:49 INFO  LogLog4j:47 - 
+2021-04-28 16:44:49 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, pressForward()'
+2021-04-28 16:44:49 INFO  LogLog4j:49 - 
+2021-04-28 16:44:49 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/btnForward]
+2021-04-28 16:44:49 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/btnForward]
+2021-04-28 16:44:49 INFO  LogLog4j:47 - 
+2021-04-28 16:44:49 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, fillQuantityRequisites()'
+2021-04-28 16:44:49 INFO  LogLog4j:49 - 
+2021-04-28 16:44:49 INFO  LogLog4j:62 - priceLevel1 = 5
+2021-04-28 16:44:49 INFO  LogLog4j:62 - price1 = 30
+2021-04-28 16:44:49 INFO  LogLog4j:62 - priceLevel2 = 10
+2021-04-28 16:44:49 INFO  LogLog4j:62 - price2 = 25
+2021-04-28 16:44:49 INFO  LogLog4j:62 - priceLevel3 = 20
+2021-04-28 16:44:49 INFO  LogLog4j:62 - price3 = 20
+2021-04-28 16:44:49 INFO  LogLog4j:62 - basicPrice = 35
+2021-04-28 16:44:49 INFO  LogLog4j:62 - 
+2021-04-28 16:44:50 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/priceLevel1Qty]
+2021-04-28 16:44:50 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/priceLevel1Qty]
+2021-04-28 16:44:51 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel1Qty]
+2021-04-28 16:44:51 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel1Qty]
+2021-04-28 16:44:52 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel1Qty]
+2021-04-28 16:44:52 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel1Qty]
+2021-04-28 16:44:53 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/priceLevel1Price]
+2021-04-28 16:44:53 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/priceLevel1Price]
+2021-04-28 16:44:53 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel1Price]
+2021-04-28 16:44:53 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel1Price]
+2021-04-28 16:44:54 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel1Price]
+2021-04-28 16:44:54 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel1Price]
+2021-04-28 16:44:54 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/priceLevel2Qty]
+2021-04-28 16:44:54 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/priceLevel2Qty]
+2021-04-28 16:44:55 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel2Qty]
+2021-04-28 16:44:55 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel2Qty]
+2021-04-28 16:44:55 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel2Qty]
+2021-04-28 16:44:56 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel2Qty]
+2021-04-28 16:44:56 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/priceLevel2Price]
+2021-04-28 16:44:56 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/priceLevel2Price]
+2021-04-28 16:44:57 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel2Price]
+2021-04-28 16:44:57 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel2Price]
+2021-04-28 16:44:57 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel2Price]
+2021-04-28 16:44:57 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel2Price]
+2021-04-28 16:44:58 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/priceLevel3Qty]
+2021-04-28 16:44:58 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/priceLevel3Qty]
+2021-04-28 16:44:58 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel3Qty]
+2021-04-28 16:44:58 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel3Qty]
+2021-04-28 16:44:59 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel3Qty]
+2021-04-28 16:44:59 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel3Qty]
+2021-04-28 16:45:00 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/priceLevel3Price]
+2021-04-28 16:45:00 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/priceLevel3Price]
+2021-04-28 16:45:00 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel3Price]
+2021-04-28 16:45:00 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel3Price]
+2021-04-28 16:45:01 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel3Price]
+2021-04-28 16:45:01 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel3Price]
+2021-04-28 16:45:02 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/priceLevelBasicPrice]
+2021-04-28 16:45:02 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/priceLevelBasicPrice]
+2021-04-28 16:45:02 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevelBasicPrice]
+2021-04-28 16:45:02 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevelBasicPrice]
+2021-04-28 16:45:03 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevelBasicPrice]
+2021-04-28 16:45:03 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevelBasicPrice]
+2021-04-28 16:45:03 INFO  LogLog4j:47 - 
+2021-04-28 16:45:03 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, pressForward()'
+2021-04-28 16:45:03 INFO  LogLog4j:49 - 
+2021-04-28 16:45:04 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/btnForward]
+2021-04-28 16:45:04 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/btnForward]
+2021-04-28 16:45:04 INFO  LogLog4j:47 - 
+2021-04-28 16:45:04 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, waitPicturesScreenIsLoaded()'
+2021-04-28 16:45:04 INFO  LogLog4j:49 - 
+2021-04-28 16:45:05 INFO  LogLog4j:47 - 
+2021-04-28 16:45:05 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, addPicture()'
+2021-04-28 16:45:05 INFO  LogLog4j:49 - 
+2021-04-28 16:45:05 INFO  LogLog4j:47 - 
+2021-04-28 16:45:05 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, waitPicturesScreenIsLoaded()'
+2021-04-28 16:45:05 INFO  LogLog4j:49 - 
+2021-04-28 16:45:05 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/productPhoto]
+2021-04-28 16:45:05 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/productPhoto]
+2021-04-28 16:45:06 INFO  LogLog4j:62 - Before click on  id: android:id/text1]
+2021-04-28 16:45:06 INFO  LogLog4j:62 - After click on  id: android:id/text1]
+2021-04-28 16:45:07 INFO  LogLog4j:62 - Before click on  id: com.android.documentsui:id/icon_thumb]
+2021-04-28 16:45:07 INFO  LogLog4j:62 - After click on  id: com.android.documentsui:id/icon_thumb]
+2021-04-28 16:45:07 INFO  LogLog4j:47 - 
+2021-04-28 16:45:07 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, waitPicturesScreenIsLoaded()'
+2021-04-28 16:45:07 INFO  LogLog4j:49 - 
+2021-04-28 16:45:07 INFO  LogLog4j:62 - Exception: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIVOBOOKS14', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, databaseEnabled: false, desired: {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, deviceName: AndroidTestDevice, platformName: android, platformVersion: 8.1.0}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 60, takesScreenshot: true, viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 66ad7d56-fd78-4d73-8605-1a49ebc6265c
+*** Element info: {Using=id, value=club.conim.hahamim:id/productPhoto}
+2021-04-28 16:45:08 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/btn_uploadPhoto]
+2021-04-28 16:45:08 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/btn_uploadPhoto]
+2021-04-28 16:45:10 INFO  LogLog4j:47 - 
+2021-04-28 16:45:10 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, pressForward()'
+2021-04-28 16:45:10 INFO  LogLog4j:49 - 
+2021-04-28 16:45:10 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/btnForward]
+2021-04-28 16:45:10 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/btnForward]
+2021-04-28 16:45:10 INFO  LogLog4j:38 - 
+2021-04-28 16:45:10 INFO  LogLog4j:39 - ##########################################################################
+2021-04-28 16:45:10 INFO  LogLog4j:40 -     aron (Business Partner): Verify the created action in 'My Actions' by name (oil695)      
+2021-04-28 16:45:10 INFO  LogLog4j:41 - ##########################################################################
+2021-04-28 16:45:10 INFO  LogLog4j:42 - 
+2021-04-28 16:45:10 INFO  LogLog4j:43 - 
+2021-04-28 16:45:10 INFO  LogLog4j:47 - 
+2021-04-28 16:45:10 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, waitUntilPageIsLoaded()'
+2021-04-28 16:45:10 INFO  LogLog4j:49 - 
+2021-04-28 16:45:11 INFO  LogLog4j:47 - 
+2021-04-28 16:45:11 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, openMyActionsPage()'
+2021-04-28 16:45:11 INFO  LogLog4j:49 - 
+2021-04-28 16:45:11 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/cabModerMembers]
+2021-04-28 16:45:11 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/cabModerMembers]
+2021-04-28 16:45:11 INFO  LogLog4j:47 - 
+2021-04-28 16:45:11 INFO  LogLog4j:48 - ======> Method started: 'ActionsListPageHelper, waitUntilPageIsLoaded()'
+2021-04-28 16:45:11 INFO  LogLog4j:49 - 
+2021-04-28 16:45:15 INFO  LogLog4j:47 - 
+2021-04-28 16:45:15 INFO  LogLog4j:48 - ======> Method started: 'ActionsListPageHelper, actionsListContainsAction(String name)'
+2021-04-28 16:45:15 INFO  LogLog4j:49 - 
+2021-04-28 16:45:15 INFO  LogLog4j:62 - name = oil695
+2021-04-28 16:45:15 INFO  LogLog4j:47 - 
+2021-04-28 16:45:15 INFO  LogLog4j:48 - ======> Method started: 'ActionsListPageHelper, cancelToHomePage()'
+2021-04-28 16:45:15 INFO  LogLog4j:49 - 
+2021-04-28 16:45:15 INFO  LogLog4j:62 - Before click on  xpath: //*[@resource-id = 'club.conim.hahamim:id/action_bar']/*[@class = 'android.widget.ImageButton']]
+2021-04-28 16:45:15 INFO  LogLog4j:62 - After click on  xpath: //*[@resource-id = 'club.conim.hahamim:id/action_bar']/*[@class = 'android.widget.ImageButton']]
+2021-04-28 16:45:15 INFO  LogLog4j:47 - 
+2021-04-28 16:45:15 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, waitUntilPageIsLoaded()'
+2021-04-28 16:45:15 INFO  LogLog4j:49 - 
+2021-04-28 16:45:17 INFO  LogLog4j:47 - 
+2021-04-28 16:45:17 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, logOut()'
+2021-04-28 16:45:17 INFO  LogLog4j:49 - 
+2021-04-28 16:45:17 INFO  LogLog4j:62 - Before click on  xpath: //*[@resource-id = 'club.conim.hahamim:id/action_bar']/*[@class = 'android.widget.ImageButton']]
+2021-04-28 16:45:17 INFO  LogLog4j:62 - After click on  xpath: //*[@resource-id = 'club.conim.hahamim:id/action_bar']/*[@class = 'android.widget.ImageButton']]
+2021-04-28 16:45:17 INFO  LogLog4j:38 - 
+2021-04-28 16:45:17 INFO  LogLog4j:39 - ##########################################################################
+2021-04-28 16:45:17 INFO  LogLog4j:40 -     may (Club Member1): Login and order product (5( for the new action (oil695)      
+2021-04-28 16:45:17 INFO  LogLog4j:41 - ##########################################################################
+2021-04-28 16:45:17 INFO  LogLog4j:42 - 
+2021-04-28 16:45:17 INFO  LogLog4j:43 - 
+2021-04-28 16:45:18 INFO  LogLog4j:47 - 
+2021-04-28 16:45:18 INFO  LogLog4j:48 - ======> Method started: 'LoginPageHelper, comeIn()'
+2021-04-28 16:45:18 INFO  LogLog4j:49 - 
+2021-04-28 16:45:18 INFO  LogLog4j:62 - login = may
+2021-04-28 16:45:18 INFO  LogLog4j:62 - password = 123
+2021-04-28 16:45:18 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/fldLogin]
+2021-04-28 16:45:18 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/fldLogin]
+2021-04-28 16:45:19 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/fldEditPassword]
+2021-04-28 16:45:20 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/fldEditPassword]
+2021-04-28 16:45:20 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/linkComeIn]
+2021-04-28 16:45:20 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/linkComeIn]
+2021-04-28 16:45:20 INFO  LogLog4j:47 - 
+2021-04-28 16:45:20 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, waitUntilPageIsLoaded()'
+2021-04-28 16:45:20 INFO  LogLog4j:49 - 
+2021-04-28 16:45:21 INFO  LogLog4j:62 - Exception: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIVOBOOKS14', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, databaseEnabled: false, desired: {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, deviceName: AndroidTestDevice, platformName: android, platformVersion: 8.1.0}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 60, takesScreenshot: true, viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 66ad7d56-fd78-4d73-8605-1a49ebc6265c
+*** Element info: {Using=id, value=club.conim.hahamim:id/cabModerMembers}
+2021-04-28 16:45:22 INFO  LogLog4j:47 - 
+2021-04-28 16:45:22 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, openNewActionsPage()'
+2021-04-28 16:45:22 INFO  LogLog4j:49 - 
+2021-04-28 16:45:22 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/cabModerPurchases]
+2021-04-28 16:45:22 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/cabModerPurchases]
+2021-04-28 16:45:22 INFO  LogLog4j:47 - 
+2021-04-28 16:45:22 INFO  LogLog4j:48 - ======> Method started: 'ActionsListPageHelper, waitUntilPageIsLoaded()'
+2021-04-28 16:45:22 INFO  LogLog4j:49 - 
+2021-04-28 16:45:24 INFO  LogLog4j:47 - 
+2021-04-28 16:45:24 INFO  LogLog4j:48 - ======> Method started: 'ActionsListPageHelper openActionDescription()'
+2021-04-28 16:45:24 INFO  LogLog4j:49 - 
+2021-04-28 16:45:24 INFO  LogLog4j:62 - name = oil695
+2021-04-28 16:45:24 INFO  LogLog4j:62 - Before click on  xpath: //*[@text='OIL695']/..]
+2021-04-28 16:45:24 INFO  LogLog4j:62 - After click on  xpath: //*[@text='OIL695']/..]
+2021-04-28 16:45:24 INFO  LogLog4j:47 - 
+2021-04-28 16:45:24 INFO  LogLog4j:48 - ======> Method started: 'ActionDescriptionHelper waitUntilPageIsLoaded()'
+2021-04-28 16:45:24 INFO  LogLog4j:49 - 
+2021-04-28 16:45:26 INFO  LogLog4j:47 - 
+2021-04-28 16:45:26 INFO  LogLog4j:48 - ======> Method started: 'ActionDescriptionHelper orderProductForClubMember()'
+2021-04-28 16:45:26 INFO  LogLog4j:49 - 
+2021-04-28 16:45:26 INFO  LogLog4j:62 - number = 5
+2021-04-28 16:45:26 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/partnersActivityOrderButton]
+2021-04-28 16:45:26 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/partnersActivityOrderButton]
+2021-04-28 16:45:26 INFO  LogLog4j:62 - Exception: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIVOBOOKS14', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, databaseEnabled: false, desired: {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, deviceName: AndroidTestDevice, platformName: android, platformVersion: 8.1.0}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 60, takesScreenshot: true, viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 66ad7d56-fd78-4d73-8605-1a49ebc6265c
+*** Element info: {Using=id, value=club.conim.hahamim:id/fldInputQuantity}
+2021-04-28 16:45:28 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/fldInputQuantity]
+2021-04-28 16:45:28 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/fldInputQuantity]
+2021-04-28 16:45:29 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/fldInputQuantity]
+2021-04-28 16:45:29 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/fldInputQuantity]
+2021-04-28 16:45:29 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/fldInputQuantity]
+2021-04-28 16:45:30 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/fldInputQuantity]
+2021-04-28 16:45:31 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/btnAccept]
+2021-04-28 16:45:31 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/btnAccept]
+2021-04-28 16:45:31 INFO  LogLog4j:47 - 
+2021-04-28 16:45:31 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, waitUntilPageIsLoaded()'
+2021-04-28 16:45:31 INFO  LogLog4j:49 - 
+2021-04-28 16:45:31 INFO  LogLog4j:62 - Exception: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIVOBOOKS14', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, databaseEnabled: false, desired: {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, deviceName: AndroidTestDevice, platformName: android, platformVersion: 8.1.0}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 60, takesScreenshot: true, viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 66ad7d56-fd78-4d73-8605-1a49ebc6265c
+*** Element info: {Using=id, value=club.conim.hahamim:id/cabModerMembers}
+2021-04-28 16:45:33 INFO  LogLog4j:47 - 
+2021-04-28 16:45:33 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, logOut()'
+2021-04-28 16:45:33 INFO  LogLog4j:49 - 
+2021-04-28 16:45:33 INFO  LogLog4j:62 - Before click on  xpath: //*[@resource-id = 'club.conim.hahamim:id/action_bar']/*[@class = 'android.widget.ImageButton']]
+2021-04-28 16:45:33 INFO  LogLog4j:62 - After click on  xpath: //*[@resource-id = 'club.conim.hahamim:id/action_bar']/*[@class = 'android.widget.ImageButton']]
+2021-04-28 16:45:33 INFO  LogLog4j:38 - 
+2021-04-28 16:45:33 INFO  LogLog4j:39 - ##########################################################################
+2021-04-28 16:45:33 INFO  LogLog4j:40 -     rina (Club Member2): Login and order product (8( for the new action (oil695)      
+2021-04-28 16:45:33 INFO  LogLog4j:41 - ##########################################################################
+2021-04-28 16:45:33 INFO  LogLog4j:42 - 
+2021-04-28 16:45:33 INFO  LogLog4j:43 - 
+2021-04-28 16:45:33 INFO  LogLog4j:62 - Exception: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIVOBOOKS14', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, databaseEnabled: false, desired: {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, deviceName: AndroidTestDevice, platformName: android, platformVersion: 8.1.0}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 60, takesScreenshot: true, viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 66ad7d56-fd78-4d73-8605-1a49ebc6265c
+*** Element info: {Using=id, value=club.conim.hahamim:id/linkComeIn}
+2021-04-28 16:45:34 INFO  LogLog4j:47 - 
+2021-04-28 16:45:34 INFO  LogLog4j:48 - ======> Method started: 'LoginPageHelper, comeIn()'
+2021-04-28 16:45:34 INFO  LogLog4j:49 - 
+2021-04-28 16:45:34 INFO  LogLog4j:62 - login = rina
+2021-04-28 16:45:34 INFO  LogLog4j:62 - password = 123
+2021-04-28 16:45:34 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/fldLogin]
+2021-04-28 16:45:35 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/fldLogin]
+2021-04-28 16:45:35 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/fldEditPassword]
+2021-04-28 16:45:36 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/fldEditPassword]
+2021-04-28 16:45:36 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/linkComeIn]
+2021-04-28 16:45:36 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/linkComeIn]
+2021-04-28 16:45:36 INFO  LogLog4j:47 - 
+2021-04-28 16:45:36 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, waitUntilPageIsLoaded()'
+2021-04-28 16:45:36 INFO  LogLog4j:49 - 
+2021-04-28 16:45:38 INFO  LogLog4j:47 - 
+2021-04-28 16:45:38 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, openNewActionsPage()'
+2021-04-28 16:45:38 INFO  LogLog4j:49 - 
+2021-04-28 16:45:38 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/cabModerPurchases]
+2021-04-28 16:45:38 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/cabModerPurchases]
+2021-04-28 16:45:38 INFO  LogLog4j:47 - 
+2021-04-28 16:45:38 INFO  LogLog4j:48 - ======> Method started: 'ActionsListPageHelper, waitUntilPageIsLoaded()'
+2021-04-28 16:45:38 INFO  LogLog4j:49 - 
+2021-04-28 16:45:40 INFO  LogLog4j:47 - 
+2021-04-28 16:45:40 INFO  LogLog4j:48 - ======> Method started: 'ActionsListPageHelper openActionDescription()'
+2021-04-28 16:45:40 INFO  LogLog4j:49 - 
+2021-04-28 16:45:40 INFO  LogLog4j:62 - name = oil695
+2021-04-28 16:45:41 INFO  LogLog4j:62 - Before click on  xpath: //*[@text='OIL695']/..]
+2021-04-28 16:45:41 INFO  LogLog4j:62 - After click on  xpath: //*[@text='OIL695']/..]
+2021-04-28 16:45:41 INFO  LogLog4j:47 - 
+2021-04-28 16:45:41 INFO  LogLog4j:48 - ======> Method started: 'ActionDescriptionHelper waitUntilPageIsLoaded()'
+2021-04-28 16:45:41 INFO  LogLog4j:49 - 
+2021-04-28 16:45:41 INFO  LogLog4j:62 - Exception: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIVOBOOKS14', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, databaseEnabled: false, desired: {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, deviceName: AndroidTestDevice, platformName: android, platformVersion: 8.1.0}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 60, takesScreenshot: true, viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 66ad7d56-fd78-4d73-8605-1a49ebc6265c
+*** Element info: {Using=id, value=club.conim.hahamim:id/backButton}
+2021-04-28 16:45:42 INFO  LogLog4j:47 - 
+2021-04-28 16:45:42 INFO  LogLog4j:48 - ======> Method started: 'ActionDescriptionHelper orderProductForClubMember()'
+2021-04-28 16:45:42 INFO  LogLog4j:49 - 
+2021-04-28 16:45:42 INFO  LogLog4j:62 - number = 8
+2021-04-28 16:45:42 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/partnersActivityOrderButton]
+2021-04-28 16:45:42 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/partnersActivityOrderButton]
+2021-04-28 16:45:44 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/fldInputQuantity]
+2021-04-28 16:45:44 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/fldInputQuantity]
+2021-04-28 16:45:45 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/fldInputQuantity]
+2021-04-28 16:45:45 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/fldInputQuantity]
+2021-04-28 16:45:46 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/fldInputQuantity]
+2021-04-28 16:45:46 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/fldInputQuantity]
+2021-04-28 16:45:48 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/btnAccept]
+2021-04-28 16:45:48 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/btnAccept]
+2021-04-28 16:45:48 INFO  LogLog4j:47 - 
+2021-04-28 16:45:48 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, waitUntilPageIsLoaded()'
+2021-04-28 16:45:48 INFO  LogLog4j:49 - 
+2021-04-28 16:45:48 INFO  LogLog4j:62 - Exception: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIVOBOOKS14', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, databaseEnabled: false, desired: {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, deviceName: AndroidTestDevice, platformName: android, platformVersion: 8.1.0}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 60, takesScreenshot: true, viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 66ad7d56-fd78-4d73-8605-1a49ebc6265c
+*** Element info: {Using=id, value=club.conim.hahamim:id/cabModerMembers}
+2021-04-28 16:45:49 INFO  LogLog4j:47 - 
+2021-04-28 16:45:49 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, logOut()'
+2021-04-28 16:45:49 INFO  LogLog4j:49 - 
+2021-04-28 16:45:49 INFO  LogLog4j:62 - Before click on  xpath: //*[@resource-id = 'club.conim.hahamim:id/action_bar']/*[@class = 'android.widget.ImageButton']]
+2021-04-28 16:45:49 INFO  LogLog4j:62 - After click on  xpath: //*[@resource-id = 'club.conim.hahamim:id/action_bar']/*[@class = 'android.widget.ImageButton']]
+2021-04-28 16:45:49 INFO  LogLog4j:62 - aron (Business Partner): Login and verify orders in 'My Actions' for action (oil695)
+2021-04-28 16:45:49 INFO  LogLog4j:62 -     For Member1 - '30.00 ₪ x 5.00  kg = 150.00 ₪, Levi May '
+2021-04-28 16:45:49 INFO  LogLog4j:62 -     For Member2 - '30.00 ₪ x 8.00  kg = 240.00 ₪, Rina Kohan '
+2021-04-28 16:45:51 INFO  LogLog4j:47 - 
+2021-04-28 16:45:51 INFO  LogLog4j:48 - ======> Method started: 'LoginPageHelper, comeIn()'
+2021-04-28 16:45:51 INFO  LogLog4j:49 - 
+2021-04-28 16:45:51 INFO  LogLog4j:62 - login = aron
+2021-04-28 16:45:51 INFO  LogLog4j:62 - password = 123
+2021-04-28 16:45:51 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/fldLogin]
+2021-04-28 16:45:51 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/fldLogin]
+2021-04-28 16:45:52 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/fldEditPassword]
+2021-04-28 16:45:52 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/fldEditPassword]
+2021-04-28 16:45:53 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/linkComeIn]
+2021-04-28 16:45:53 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/linkComeIn]
+2021-04-28 16:45:53 INFO  LogLog4j:47 - 
+2021-04-28 16:45:53 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, waitUntilPageIsLoaded()'
+2021-04-28 16:45:53 INFO  LogLog4j:49 - 
+2021-04-28 16:45:54 INFO  LogLog4j:47 - 
+2021-04-28 16:45:54 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, openMyActionsPage()'
+2021-04-28 16:45:54 INFO  LogLog4j:49 - 
+2021-04-28 16:45:54 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/cabModerMembers]
+2021-04-28 16:45:54 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/cabModerMembers]
+2021-04-28 16:45:54 INFO  LogLog4j:47 - 
+2021-04-28 16:45:54 INFO  LogLog4j:48 - ======> Method started: 'ActionsListPageHelper, waitUntilPageIsLoaded()'
+2021-04-28 16:45:54 INFO  LogLog4j:49 - 
+2021-04-28 16:45:57 INFO  LogLog4j:47 - 
+2021-04-28 16:45:57 INFO  LogLog4j:48 - ======> Method started: 'ActionsListPageHelper openActionDescription()'
+2021-04-28 16:45:57 INFO  LogLog4j:49 - 
+2021-04-28 16:45:57 INFO  LogLog4j:62 - name = oil695
+2021-04-28 16:45:57 INFO  LogLog4j:62 - Before click on  xpath: //*[@text='OIL695']/..]
+2021-04-28 16:45:57 INFO  LogLog4j:62 - After click on  xpath: //*[@text='OIL695']/..]
+2021-04-28 16:45:57 INFO  LogLog4j:47 - 
+2021-04-28 16:45:57 INFO  LogLog4j:48 - ======> Method started: 'ActionDescriptionHelper waitUntilPageIsLoaded()'
+2021-04-28 16:45:57 INFO  LogLog4j:49 - 
+2021-04-28 16:45:57 INFO  LogLog4j:62 - Exception: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIVOBOOKS14', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, databaseEnabled: false, desired: {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, deviceName: AndroidTestDevice, platformName: android, platformVersion: 8.1.0}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 60, takesScreenshot: true, viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 66ad7d56-fd78-4d73-8605-1a49ebc6265c
+*** Element info: {Using=id, value=club.conim.hahamim:id/backButton}
+2021-04-28 16:45:58 INFO  LogLog4j:47 - 
+2021-04-28 16:45:58 INFO  LogLog4j:48 - ======> Method started: 'ActionDescriptionHelper, verifyOrderForBP()'
+2021-04-28 16:45:58 INFO  LogLog4j:49 - 
+2021-04-28 16:45:58 INFO  LogLog4j:62 - commonInfoOrder = 30.00 ₪ x 5.00  kg = 150.00 ₪, Levi May 
+2021-04-28 16:45:58 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/partnersActivityOrderButton]
+2021-04-28 16:45:58 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/partnersActivityOrderButton]
+2021-04-28 16:46:00 INFO  LogLog4j:47 - 
+2021-04-28 16:46:00 INFO  LogLog4j:48 - ======> Method started: 'ActionDescriptionHelper waitUntilPageIsLoaded()'
+2021-04-28 16:46:00 INFO  LogLog4j:49 - 
+2021-04-28 16:46:01 INFO  LogLog4j:47 - 
+2021-04-28 16:46:01 INFO  LogLog4j:48 - ======> Method started: 'ActionDescriptionHelper, verifyOrderForBP()'
+2021-04-28 16:46:01 INFO  LogLog4j:49 - 
+2021-04-28 16:46:01 INFO  LogLog4j:62 - commonInfoOrder = 30.00 ₪ x 8.00  kg = 240.00 ₪, Rina Kohan 
+2021-04-28 16:46:01 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/partnersActivityOrderButton]
+2021-04-28 16:46:01 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/partnersActivityOrderButton]
+2021-04-28 16:46:02 INFO  LogLog4j:47 - 
+2021-04-28 16:46:02 INFO  LogLog4j:48 - ======> Method started: 'ActionDescriptionHelper waitUntilPageIsLoaded()'
+2021-04-28 16:46:02 INFO  LogLog4j:49 - 
+2021-04-28 16:46:03 INFO  LogLog4j:62 - SUCCESS
+2021-04-28 16:46:03 INFO  LogLog4j:29 - ***********************************************
+2021-04-28 16:46:03 INFO  LogLog4j:30 - ***************               -E---N---D-
+2021-04-28 16:46:03 INFO  LogLog4j:31 - ***********************************************
+2021-04-28 16:46:03 INFO  LogLog4j:32 - 
+2021-04-28 16:46:03 INFO  LogLog4j:33 - 
+2021-04-28 19:53:21 INFO  LogLog4j:62 - 
+2021-04-28 19:53:21 INFO  LogLog4j:62 - *********************************************************************************
+2021-04-28 19:53:21 INFO  LogLog4j:62 - *********************************************************************************
+2021-04-28 19:53:21 INFO  LogLog4j:62 -   PROJECT NAME: SmartShTest
+2021-04-28 19:53:21 INFO  LogLog4j:62 - *********************************************************************************
+2021-04-28 19:53:21 INFO  LogLog4j:62 - *********************************************************************************
+2021-04-28 19:53:21 INFO  LogLog4j:62 - 
+2021-04-28 19:53:31 INFO  LogLog4j:47 - 
+2021-04-28 19:53:31 INFO  LogLog4j:48 - ======> Method started: 'LoginPageHelper, comeIn()'
+2021-04-28 19:53:31 INFO  LogLog4j:49 - 
+2021-04-28 19:53:31 INFO  LogLog4j:62 - login = aron
+2021-04-28 19:53:31 INFO  LogLog4j:62 - password = 123
+2021-04-28 19:53:31 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/fldLogin]
+2021-04-28 19:53:31 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/fldLogin]
+2021-04-28 19:53:32 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/fldEditPassword]
+2021-04-28 19:53:33 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/fldEditPassword]
+2021-04-28 19:53:33 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/linkComeIn]
+2021-04-28 19:53:33 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/linkComeIn]
+2021-04-28 19:53:33 INFO  LogLog4j:47 - 
+2021-04-28 19:53:33 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, waitUntilPageIsLoaded()'
+2021-04-28 19:53:33 INFO  LogLog4j:49 - 
+2021-04-28 19:53:34 INFO  LogLog4j:62 - Exception: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIVOBOOKS14', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, databaseEnabled: false, desired: {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, deviceName: AndroidTestDevice, platformName: android, platformVersion: 8.1.0}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 60, takesScreenshot: true, viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 2409573c-2196-4e2d-9c93-9a764f0d4f03
+*** Element info: {Using=id, value=club.conim.hahamim:id/cabModerMembers}
+2021-04-28 19:53:35 INFO  LogLog4j:16 - 
+2021-04-28 19:53:35 INFO  LogLog4j:17 - 
+2021-04-28 19:53:35 INFO  LogLog4j:18 - ********************************************************************************
+2021-04-28 19:53:35 INFO  LogLog4j:19 -     Test Case: createNewAction
+2021-04-28 19:53:35 INFO  LogLog4j:20 - ********************************************************************************
+2021-04-28 19:53:35 INFO  LogLog4j:47 - 
+2021-04-28 19:53:35 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, openCreateNewAction()'
+2021-04-28 19:53:35 INFO  LogLog4j:49 - 
+2021-04-28 19:53:35 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/cabmBtnCreateAction]
+2021-04-28 19:53:35 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/cabmBtnCreateAction]
+2021-04-28 19:53:35 INFO  LogLog4j:47 - 
+2021-04-28 19:53:35 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, waitUntilPageIsLoaded()'
+2021-04-28 19:53:35 INFO  LogLog4j:49 - 
+2021-04-28 19:53:36 INFO  LogLog4j:62 - Exception: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIVOBOOKS14', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, databaseEnabled: false, desired: {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, deviceName: AndroidTestDevice, platformName: android, platformVersion: 8.1.0}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 60, takesScreenshot: true, viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 2409573c-2196-4e2d-9c93-9a764f0d4f03
+*** Element info: {Using=id, value=club.conim.hahamim:id/productName}
+2021-04-28 19:53:37 INFO  LogLog4j:47 - 
+2021-04-28 19:53:37 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, fillGoodRequisites()'
+2021-04-28 19:53:37 INFO  LogLog4j:49 - 
+2021-04-28 19:53:37 INFO  LogLog4j:62 - name = avocado666
+2021-04-28 19:53:37 INFO  LogLog4j:62 - category = Food
+2021-04-28 19:53:37 INFO  LogLog4j:62 - subCategory = Delicacies
+2021-04-28 19:53:37 INFO  LogLog4j:62 - measure = kg
+2021-04-28 19:53:37 INFO  LogLog4j:62 - purchase = Vegetables
+2021-04-28 19:53:37 INFO  LogLog4j:47 - 
+2021-04-28 19:53:37 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, waitUntilPageIsLoaded()'
+2021-04-28 19:53:37 INFO  LogLog4j:49 - 
+2021-04-28 19:53:38 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/productName]
+2021-04-28 19:53:38 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/productName]
+2021-04-28 19:53:38 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/productName]
+2021-04-28 19:53:39 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/productName]
+2021-04-28 19:53:39 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/productName]
+2021-04-28 19:53:40 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/productName]
+2021-04-28 19:53:41 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/autoCompleteGoodsCategory]
+2021-04-28 19:53:41 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/autoCompleteGoodsCategory]
+2021-04-28 19:53:41 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsCategory]
+2021-04-28 19:53:42 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsCategory]
+2021-04-28 19:53:42 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsCategory]
+2021-04-28 19:53:43 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsCategory]
+2021-04-28 19:53:43 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/autoCompleteGoodsSubcategory]
+2021-04-28 19:53:45 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/autoCompleteGoodsSubcategory]
+2021-04-28 19:53:45 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsSubcategory]
+2021-04-28 19:53:45 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsSubcategory]
+2021-04-28 19:53:45 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsSubcategory]
+2021-04-28 19:53:46 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsSubcategory]
+2021-04-28 19:53:46 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/autoCompleteMeasureUnit]
+2021-04-28 19:53:46 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/autoCompleteMeasureUnit]
+2021-04-28 19:53:47 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompleteMeasureUnit]
+2021-04-28 19:53:48 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompleteMeasureUnit]
+2021-04-28 19:53:48 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompleteMeasureUnit]
+2021-04-28 19:53:49 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompleteMeasureUnit]
+2021-04-28 19:53:50 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/autoCompletePurchase]
+2021-04-28 19:53:50 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/autoCompletePurchase]
+2021-04-28 19:53:51 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompletePurchase]
+2021-04-28 19:53:51 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompletePurchase]
+2021-04-28 19:53:51 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompletePurchase]
+2021-04-28 19:53:52 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompletePurchase]
+2021-04-28 19:53:53 INFO  LogLog4j:47 - 
+2021-04-28 19:53:53 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, pressForward()'
+2021-04-28 19:53:53 INFO  LogLog4j:49 - 
+2021-04-28 19:53:53 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/btnForward]
+2021-04-28 19:53:53 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/btnForward]
+2021-04-28 19:53:53 INFO  LogLog4j:47 - 
+2021-04-28 19:53:53 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, fillQuantityRequisites()'
+2021-04-28 19:53:53 INFO  LogLog4j:49 - 
+2021-04-28 19:53:53 INFO  LogLog4j:62 - priceLevel1 = 5
+2021-04-28 19:53:53 INFO  LogLog4j:62 - price1 = 30
+2021-04-28 19:53:53 INFO  LogLog4j:62 - priceLevel2 = 10
+2021-04-28 19:53:53 INFO  LogLog4j:62 - price2 = 25
+2021-04-28 19:53:53 INFO  LogLog4j:62 - priceLevel3 = 20
+2021-04-28 19:53:53 INFO  LogLog4j:62 - price3 = 20
+2021-04-28 19:53:53 INFO  LogLog4j:62 - basicPrice = 35
+2021-04-28 19:53:53 INFO  LogLog4j:62 - minimalVolume = 1
+2021-04-28 19:53:53 INFO  LogLog4j:62 - maximalVolume = 50
+2021-04-28 19:53:53 INFO  LogLog4j:62 - 
+2021-04-28 19:53:54 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/priceLevel1Qty]
+2021-04-28 19:53:54 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/priceLevel1Qty]
+2021-04-28 19:53:55 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel1Qty]
+2021-04-28 19:53:55 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel1Qty]
+2021-04-28 19:53:56 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel1Qty]
+2021-04-28 19:53:56 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel1Qty]
+2021-04-28 19:53:56 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/priceLevel1Price]
+2021-04-28 19:53:57 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/priceLevel1Price]
+2021-04-28 19:53:57 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel1Price]
+2021-04-28 19:53:57 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel1Price]
+2021-04-28 19:53:58 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel1Price]
+2021-04-28 19:53:58 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel1Price]
+2021-04-28 19:53:58 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/priceLevel2Qty]
+2021-04-28 19:53:58 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/priceLevel2Qty]
+2021-04-28 19:53:59 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel2Qty]
+2021-04-28 19:53:59 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel2Qty]
+2021-04-28 19:53:59 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel2Qty]
+2021-04-28 19:53:59 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel2Qty]
+2021-04-28 19:54:00 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/priceLevel2Price]
+2021-04-28 19:54:00 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/priceLevel2Price]
+2021-04-28 19:54:01 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel2Price]
+2021-04-28 19:54:01 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel2Price]
+2021-04-28 19:54:01 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel2Price]
+2021-04-28 19:54:01 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel2Price]
+2021-04-28 19:54:02 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/priceLevel3Qty]
+2021-04-28 19:54:02 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/priceLevel3Qty]
+2021-04-28 19:54:02 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel3Qty]
+2021-04-28 19:54:02 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel3Qty]
+2021-04-28 19:54:03 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel3Qty]
+2021-04-28 19:54:03 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel3Qty]
+2021-04-28 19:54:03 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/priceLevel3Price]
+2021-04-28 19:54:03 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/priceLevel3Price]
+2021-04-28 19:54:04 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel3Price]
+2021-04-28 19:54:04 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel3Price]
+2021-04-28 19:54:05 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel3Price]
+2021-04-28 19:54:05 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel3Price]
+2021-04-28 19:54:05 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/priceLevelBasicPrice]
+2021-04-28 19:54:05 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/priceLevelBasicPrice]
+2021-04-28 19:54:06 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevelBasicPrice]
+2021-04-28 19:54:06 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevelBasicPrice]
+2021-04-28 19:54:06 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevelBasicPrice]
+2021-04-28 19:54:06 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevelBasicPrice]
+2021-04-28 19:54:07 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/minimalVolume]
+2021-04-28 19:54:07 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/minimalVolume]
+2021-04-28 19:54:07 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/minimalVolume]
+2021-04-28 19:54:08 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/minimalVolume]
+2021-04-28 19:54:08 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/minimalVolume]
+2021-04-28 19:54:08 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/minimalVolume]
+2021-04-28 19:54:09 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/maximalVolume]
+2021-04-28 19:54:09 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/maximalVolume]
+2021-04-28 19:54:09 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/maximalVolume]
+2021-04-28 19:54:09 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/maximalVolume]
+2021-04-28 19:54:10 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/maximalVolume]
+2021-04-28 19:54:10 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/maximalVolume]
+2021-04-28 19:54:10 INFO  LogLog4j:47 - 
+2021-04-28 19:54:10 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, pressForward()'
+2021-04-28 19:54:10 INFO  LogLog4j:49 - 
+2021-04-28 19:54:11 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/btnForward]
+2021-04-28 19:54:11 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/btnForward]
+2021-04-28 19:54:11 INFO  LogLog4j:47 - 
+2021-04-28 19:54:11 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, waitPicturesScreenIsLoaded()'
+2021-04-28 19:54:11 INFO  LogLog4j:49 - 
+2021-04-28 19:54:12 INFO  LogLog4j:47 - 
+2021-04-28 19:54:12 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, addPicture()'
+2021-04-28 19:54:12 INFO  LogLog4j:49 - 
+2021-04-28 19:54:12 INFO  LogLog4j:47 - 
+2021-04-28 19:54:12 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, waitPicturesScreenIsLoaded()'
+2021-04-28 19:54:12 INFO  LogLog4j:49 - 
+2021-04-28 19:54:12 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/productPhoto]
+2021-04-28 19:54:12 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/productPhoto]
+2021-04-28 19:54:13 INFO  LogLog4j:62 - Before click on  id: android:id/text1]
+2021-04-28 19:54:14 INFO  LogLog4j:62 - After click on  id: android:id/text1]
+2021-04-28 19:54:15 INFO  LogLog4j:62 - Before click on  id: com.android.documentsui:id/icon_thumb]
+2021-04-28 19:54:15 INFO  LogLog4j:62 - After click on  id: com.android.documentsui:id/icon_thumb]
+2021-04-28 19:54:15 INFO  LogLog4j:47 - 
+2021-04-28 19:54:15 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, waitPicturesScreenIsLoaded()'
+2021-04-28 19:54:15 INFO  LogLog4j:49 - 
+2021-04-28 19:54:15 INFO  LogLog4j:62 - Exception: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIVOBOOKS14', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, databaseEnabled: false, desired: {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, deviceName: AndroidTestDevice, platformName: android, platformVersion: 8.1.0}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 60, takesScreenshot: true, viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 2409573c-2196-4e2d-9c93-9a764f0d4f03
+*** Element info: {Using=id, value=club.conim.hahamim:id/productPhoto}
+2021-04-28 19:54:16 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/btn_uploadPhoto]
+2021-04-28 19:54:16 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/btn_uploadPhoto]
+2021-04-28 19:54:18 INFO  LogLog4j:47 - 
+2021-04-28 19:54:18 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, pressForward()'
+2021-04-28 19:54:18 INFO  LogLog4j:49 - 
+2021-04-28 19:54:19 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/btnForward]
+2021-04-28 19:54:19 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/btnForward]
+2021-04-28 19:54:19 INFO  LogLog4j:47 - 
+2021-04-28 19:54:19 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, waitUntilPageIsLoaded()'
+2021-04-28 19:54:19 INFO  LogLog4j:49 - 
+2021-04-28 19:54:19 INFO  LogLog4j:62 - Exception: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIVOBOOKS14', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, databaseEnabled: false, desired: {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, deviceName: AndroidTestDevice, platformName: android, platformVersion: 8.1.0}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 60, takesScreenshot: true, viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 2409573c-2196-4e2d-9c93-9a764f0d4f03
+*** Element info: {Using=id, value=club.conim.hahamim:id/cabModerMembers}
+2021-04-28 19:54:20 INFO  LogLog4j:47 - 
+2021-04-28 19:54:20 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, openMyActionsPage()'
+2021-04-28 19:54:20 INFO  LogLog4j:49 - 
+2021-04-28 19:54:20 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/cabModerMembers]
+2021-04-28 19:54:20 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/cabModerMembers]
+2021-04-28 19:54:20 INFO  LogLog4j:47 - 
+2021-04-28 19:54:20 INFO  LogLog4j:48 - ======> Method started: 'ActionsListPageHelper, waitUntilPageIsLoaded()'
+2021-04-28 19:54:20 INFO  LogLog4j:49 - 
+2021-04-28 19:54:24 INFO  LogLog4j:47 - 
+2021-04-28 19:54:24 INFO  LogLog4j:48 - ======> Method started: 'ActionsListPageHelper, actionsListContainsAction(String name)'
+2021-04-28 19:54:24 INFO  LogLog4j:49 - 
+2021-04-28 19:54:24 INFO  LogLog4j:62 - name = avocado666
+2021-04-28 19:54:25 INFO  LogLog4j:62 - SUCCESS
+2021-04-28 19:54:25 INFO  LogLog4j:29 - *******************************************************************************
+2021-04-28 19:54:25 INFO  LogLog4j:30 - ***************               -E---N---D-          ****************
+2021-04-28 19:54:25 INFO  LogLog4j:31 - *******************************************************************************
+2021-04-28 19:54:25 INFO  LogLog4j:32 - 
+2021-04-28 19:54:25 INFO  LogLog4j:33 - 
+2021-04-28 20:35:54 INFO  LogLog4j:62 - 
+2021-04-28 20:35:54 INFO  LogLog4j:62 - *********************************************************************************
+2021-04-28 20:35:54 INFO  LogLog4j:62 - *********************************************************************************
+2021-04-28 20:35:54 INFO  LogLog4j:62 -   PROJECT NAME: SmartShTest
+2021-04-28 20:35:54 INFO  LogLog4j:62 - *********************************************************************************
+2021-04-28 20:35:54 INFO  LogLog4j:62 - *********************************************************************************
+2021-04-28 20:35:54 INFO  LogLog4j:62 - 
+2021-04-28 20:36:04 INFO  LogLog4j:47 - 
+2021-04-28 20:36:04 INFO  LogLog4j:48 - ======> Method started: 'LoginPageHelper, comeIn()'
+2021-04-28 20:36:04 INFO  LogLog4j:49 - 
+2021-04-28 20:36:04 INFO  LogLog4j:62 - login = aron
+2021-04-28 20:36:04 INFO  LogLog4j:62 - password = 123
+2021-04-28 20:36:05 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/fldLogin]
+2021-04-28 20:36:05 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/fldLogin]
+2021-04-28 20:36:06 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/fldEditPassword]
+2021-04-28 20:36:06 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/fldEditPassword]
+2021-04-28 20:36:07 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/linkComeIn]
+2021-04-28 20:36:07 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/linkComeIn]
+2021-04-28 20:36:07 INFO  LogLog4j:47 - 
+2021-04-28 20:36:07 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, waitUntilPageIsLoaded()'
+2021-04-28 20:36:07 INFO  LogLog4j:49 - 
+2021-04-28 20:36:07 INFO  LogLog4j:62 - Exception: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIVOBOOKS14', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, databaseEnabled: false, desired: {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, deviceName: AndroidTestDevice, platformName: android, platformVersion: 8.1.0}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 60, takesScreenshot: true, viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 86ba1d7a-b8a3-4f9e-b432-cec8e82f8bb2
+*** Element info: {Using=id, value=club.conim.hahamim:id/cabModerMembers}
+2021-04-28 20:36:09 INFO  LogLog4j:16 - 
+2021-04-28 20:36:09 INFO  LogLog4j:17 - 
+2021-04-28 20:36:09 INFO  LogLog4j:18 - ********************************************************************************
+2021-04-28 20:36:09 INFO  LogLog4j:19 -     Test Case: createNewAction
+2021-04-28 20:36:09 INFO  LogLog4j:20 - ********************************************************************************
+2021-04-28 20:36:09 INFO  LogLog4j:47 - 
+2021-04-28 20:36:09 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, openCreateNewAction()'
+2021-04-28 20:36:09 INFO  LogLog4j:49 - 
+2021-04-28 20:36:09 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/cabmBtnCreateAction]
+2021-04-28 20:36:09 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/cabmBtnCreateAction]
+2021-04-28 20:36:09 INFO  LogLog4j:47 - 
+2021-04-28 20:36:09 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, waitUntilPageIsLoaded()'
+2021-04-28 20:36:09 INFO  LogLog4j:49 - 
+2021-04-28 20:36:09 INFO  LogLog4j:62 - Exception: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIVOBOOKS14', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, databaseEnabled: false, desired: {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, deviceName: AndroidTestDevice, platformName: android, platformVersion: 8.1.0}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 60, takesScreenshot: true, viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 86ba1d7a-b8a3-4f9e-b432-cec8e82f8bb2
+*** Element info: {Using=id, value=club.conim.hahamim:id/productName}
+2021-04-28 20:36:11 INFO  LogLog4j:47 - 
+2021-04-28 20:36:11 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, fillGoodRequisites()'
+2021-04-28 20:36:11 INFO  LogLog4j:49 - 
+2021-04-28 20:36:11 INFO  LogLog4j:62 - name = ﻿Варенье вишневое
+2021-04-28 20:36:11 INFO  LogLog4j:62 - category = Food
+2021-04-28 20:36:11 INFO  LogLog4j:62 - subCategory = Delicacies
+2021-04-28 20:36:11 INFO  LogLog4j:62 - measure = kg
+2021-04-28 20:36:11 INFO  LogLog4j:62 - purchase = Vegetables
+2021-04-28 20:36:11 INFO  LogLog4j:47 - 
+2021-04-28 20:36:11 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, waitUntilPageIsLoaded()'
+2021-04-28 20:36:11 INFO  LogLog4j:49 - 
+2021-04-28 20:36:11 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/productName]
+2021-04-28 20:36:11 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/productName]
+2021-04-28 20:36:11 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/productName]
+2021-04-28 20:36:12 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/productName]
+2021-04-28 20:36:13 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/productName]
+2021-04-28 20:36:14 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/productName]
+2021-04-28 20:36:14 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/autoCompleteGoodsCategory]
+2021-04-28 20:36:15 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/autoCompleteGoodsCategory]
+2021-04-28 20:36:15 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsCategory]
+2021-04-28 20:36:15 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsCategory]
+2021-04-28 20:36:16 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsCategory]
+2021-04-28 20:36:17 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsCategory]
+2021-04-28 20:36:18 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/autoCompleteGoodsSubcategory]
+2021-04-28 20:36:19 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/autoCompleteGoodsSubcategory]
+2021-04-28 20:36:19 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsSubcategory]
+2021-04-28 20:36:19 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsSubcategory]
+2021-04-28 20:36:19 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsSubcategory]
+2021-04-28 20:36:20 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompleteGoodsSubcategory]
+2021-04-28 20:36:20 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/autoCompleteMeasureUnit]
+2021-04-28 20:36:20 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/autoCompleteMeasureUnit]
+2021-04-28 20:36:21 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompleteMeasureUnit]
+2021-04-28 20:36:21 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompleteMeasureUnit]
+2021-04-28 20:36:22 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompleteMeasureUnit]
+2021-04-28 20:36:23 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompleteMeasureUnit]
+2021-04-28 20:36:24 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/autoCompletePurchase]
+2021-04-28 20:36:25 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/autoCompletePurchase]
+2021-04-28 20:36:25 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompletePurchase]
+2021-04-28 20:36:25 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompletePurchase]
+2021-04-28 20:36:25 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/autoCompletePurchase]
+2021-04-28 20:36:26 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/autoCompletePurchase]
+2021-04-28 20:36:26 INFO  LogLog4j:47 - 
+2021-04-28 20:36:26 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, pressForward()'
+2021-04-28 20:36:26 INFO  LogLog4j:49 - 
+2021-04-28 20:36:27 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/btnForward]
+2021-04-28 20:36:27 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/btnForward]
+2021-04-28 20:36:27 INFO  LogLog4j:47 - 
+2021-04-28 20:36:27 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, fillQuantityRequisites()'
+2021-04-28 20:36:27 INFO  LogLog4j:49 - 
+2021-04-28 20:36:27 INFO  LogLog4j:62 - priceLevel1 = 5
+2021-04-28 20:36:27 INFO  LogLog4j:62 - price1 = 30
+2021-04-28 20:36:27 INFO  LogLog4j:62 - priceLevel2 = 10
+2021-04-28 20:36:27 INFO  LogLog4j:62 - price2 = 25
+2021-04-28 20:36:27 INFO  LogLog4j:62 - priceLevel3 = 20
+2021-04-28 20:36:27 INFO  LogLog4j:62 - price3 = 20
+2021-04-28 20:36:27 INFO  LogLog4j:62 - basicPrice = 35
+2021-04-28 20:36:27 INFO  LogLog4j:62 - minimalVolume = 1
+2021-04-28 20:36:27 INFO  LogLog4j:62 - maximalVolume = 50
+2021-04-28 20:36:27 INFO  LogLog4j:62 - 
+2021-04-28 20:36:28 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/priceLevel1Qty]
+2021-04-28 20:36:28 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/priceLevel1Qty]
+2021-04-28 20:36:29 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel1Qty]
+2021-04-28 20:36:29 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel1Qty]
+2021-04-28 20:36:30 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel1Qty]
+2021-04-28 20:36:30 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel1Qty]
+2021-04-28 20:36:30 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/priceLevel1Price]
+2021-04-28 20:36:30 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/priceLevel1Price]
+2021-04-28 20:36:31 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel1Price]
+2021-04-28 20:36:31 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel1Price]
+2021-04-28 20:36:31 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel1Price]
+2021-04-28 20:36:32 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel1Price]
+2021-04-28 20:36:32 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/priceLevel2Qty]
+2021-04-28 20:36:32 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/priceLevel2Qty]
+2021-04-28 20:36:33 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel2Qty]
+2021-04-28 20:36:33 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel2Qty]
+2021-04-28 20:36:33 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel2Qty]
+2021-04-28 20:36:33 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel2Qty]
+2021-04-28 20:36:34 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/priceLevel2Price]
+2021-04-28 20:36:34 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/priceLevel2Price]
+2021-04-28 20:36:34 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel2Price]
+2021-04-28 20:36:34 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel2Price]
+2021-04-28 20:36:35 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel2Price]
+2021-04-28 20:36:35 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel2Price]
+2021-04-28 20:36:36 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/priceLevel3Qty]
+2021-04-28 20:36:36 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/priceLevel3Qty]
+2021-04-28 20:36:36 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel3Qty]
+2021-04-28 20:36:36 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel3Qty]
+2021-04-28 20:36:37 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel3Qty]
+2021-04-28 20:36:37 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel3Qty]
+2021-04-28 20:36:37 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/priceLevel3Price]
+2021-04-28 20:36:37 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/priceLevel3Price]
+2021-04-28 20:36:38 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel3Price]
+2021-04-28 20:36:38 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel3Price]
+2021-04-28 20:36:38 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevel3Price]
+2021-04-28 20:36:39 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevel3Price]
+2021-04-28 20:36:39 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/priceLevelBasicPrice]
+2021-04-28 20:36:39 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/priceLevelBasicPrice]
+2021-04-28 20:36:40 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevelBasicPrice]
+2021-04-28 20:36:40 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevelBasicPrice]
+2021-04-28 20:36:40 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/priceLevelBasicPrice]
+2021-04-28 20:36:40 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/priceLevelBasicPrice]
+2021-04-28 20:36:41 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/minimalVolume]
+2021-04-28 20:36:41 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/minimalVolume]
+2021-04-28 20:36:41 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/minimalVolume]
+2021-04-28 20:36:41 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/minimalVolume]
+2021-04-28 20:36:42 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/minimalVolume]
+2021-04-28 20:36:42 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/minimalVolume]
+2021-04-28 20:36:43 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/maximalVolume]
+2021-04-28 20:36:43 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/maximalVolume]
+2021-04-28 20:36:43 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/maximalVolume]
+2021-04-28 20:36:43 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/maximalVolume]
+2021-04-28 20:36:44 INFO  LogLog4j:62 - Before changing the value of  id: club.conim.hahamim:id/maximalVolume]
+2021-04-28 20:36:44 INFO  LogLog4j:62 - After changing the value of  id: club.conim.hahamim:id/maximalVolume]
+2021-04-28 20:36:44 INFO  LogLog4j:47 - 
+2021-04-28 20:36:44 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, pressForward()'
+2021-04-28 20:36:44 INFO  LogLog4j:49 - 
+2021-04-28 20:36:45 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/btnForward]
+2021-04-28 20:36:45 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/btnForward]
+2021-04-28 20:36:45 INFO  LogLog4j:47 - 
+2021-04-28 20:36:45 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, waitPicturesScreenIsLoaded()'
+2021-04-28 20:36:45 INFO  LogLog4j:49 - 
+2021-04-28 20:36:46 INFO  LogLog4j:47 - 
+2021-04-28 20:36:46 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, addPicture()'
+2021-04-28 20:36:46 INFO  LogLog4j:49 - 
+2021-04-28 20:36:46 INFO  LogLog4j:47 - 
+2021-04-28 20:36:46 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, waitPicturesScreenIsLoaded()'
+2021-04-28 20:36:46 INFO  LogLog4j:49 - 
+2021-04-28 20:36:46 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/productPhoto]
+2021-04-28 20:36:46 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/productPhoto]
+2021-04-28 20:36:47 INFO  LogLog4j:62 - Before click on  id: android:id/text1]
+2021-04-28 20:36:48 INFO  LogLog4j:62 - After click on  id: android:id/text1]
+2021-04-28 20:36:48 INFO  LogLog4j:62 - Before click on  id: com.android.documentsui:id/icon_thumb]
+2021-04-28 20:36:48 INFO  LogLog4j:62 - After click on  id: com.android.documentsui:id/icon_thumb]
+2021-04-28 20:36:48 INFO  LogLog4j:47 - 
+2021-04-28 20:36:48 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, waitPicturesScreenIsLoaded()'
+2021-04-28 20:36:48 INFO  LogLog4j:49 - 
+2021-04-28 20:36:48 INFO  LogLog4j:62 - Exception: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIVOBOOKS14', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, databaseEnabled: false, desired: {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, deviceName: AndroidTestDevice, platformName: android, platformVersion: 8.1.0}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 60, takesScreenshot: true, viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 86ba1d7a-b8a3-4f9e-b432-cec8e82f8bb2
+*** Element info: {Using=id, value=club.conim.hahamim:id/productPhoto}
+2021-04-28 20:36:49 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/btn_uploadPhoto]
+2021-04-28 20:36:49 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/btn_uploadPhoto]
+2021-04-28 20:36:51 INFO  LogLog4j:47 - 
+2021-04-28 20:36:51 INFO  LogLog4j:48 - ======> Method started: 'CreateNewActionHelper, pressForward()'
+2021-04-28 20:36:51 INFO  LogLog4j:49 - 
+2021-04-28 20:36:51 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/btnForward]
+2021-04-28 20:36:51 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/btnForward]
+2021-04-28 20:36:51 INFO  LogLog4j:47 - 
+2021-04-28 20:36:51 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, waitUntilPageIsLoaded()'
+2021-04-28 20:36:51 INFO  LogLog4j:49 - 
+2021-04-28 20:36:51 INFO  LogLog4j:62 - Exception: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIVOBOOKS14', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, databaseEnabled: false, desired: {app: C:/Marina/TelRan/Auto/Pract..., appActivity: .activities.MainActivity, appPackage: club.conim.hahamim, automationName: Uiautomator2, deviceName: AndroidTestDevice, platformName: android, platformVersion: 8.1.0}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 60, takesScreenshot: true, viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 86ba1d7a-b8a3-4f9e-b432-cec8e82f8bb2
+*** Element info: {Using=id, value=club.conim.hahamim:id/cabModerMembers}
+2021-04-28 20:36:52 INFO  LogLog4j:47 - 
+2021-04-28 20:36:52 INFO  LogLog4j:48 - ======> Method started: 'HomePageHelper, openMyActionsPage()'
+2021-04-28 20:36:52 INFO  LogLog4j:49 - 
+2021-04-28 20:36:52 INFO  LogLog4j:62 - Before click on  id: club.conim.hahamim:id/cabModerMembers]
+2021-04-28 20:36:52 INFO  LogLog4j:62 - After click on  id: club.conim.hahamim:id/cabModerMembers]
+2021-04-28 20:36:52 INFO  LogLog4j:47 - 
+2021-04-28 20:36:52 INFO  LogLog4j:48 - ======> Method started: 'ActionsListPageHelper, waitUntilPageIsLoaded()'
+2021-04-28 20:36:52 INFO  LogLog4j:49 - 
+2021-04-28 20:36:56 INFO  LogLog4j:47 - 
+2021-04-28 20:36:56 INFO  LogLog4j:48 - ======> Method started: 'ActionsListPageHelper, actionsListContainsAction(String name)'
+2021-04-28 20:36:56 INFO  LogLog4j:49 - 
+2021-04-28 20:36:56 INFO  LogLog4j:62 - name = ﻿Варенье вишневое
+2021-04-28 20:36:56 INFO  LogLog4j:62 - SUCCESS
+2021-04-28 20:36:56 INFO  LogLog4j:29 - *******************************************************************************
+2021-04-28 20:36:56 INFO  LogLog4j:30 - ***************               -E---N---D-          ****************
+2021-04-28 20:36:56 INFO  LogLog4j:31 - *******************************************************************************
+2021-04-28 20:36:56 INFO  LogLog4j:32 - 
+2021-04-28 20:36:56 INFO  LogLog4j:33 - 
