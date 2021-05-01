@@ -38,8 +38,8 @@ public class TestBase {
         capabilities.setCapability("platformName","Android");
         capabilities.setCapability("deviceName","AndroidTestDevice");
         //capabilities.setCapability("platformVersion", "9.0");
-        capabilities.setCapability("platformVersion", "8.1.0");
-        //capabilities.setCapability("platformVersion", "11.0");
+        //capabilities.setCapability("platformVersion", "8.1.0");
+        capabilities.setCapability("platformVersion", "11.0");
         capabilities.setCapability("appPackage", "club.conim.hahamim");
         capabilities.setCapability("appActivity",".activities.MainActivity");
         capabilities.setCapability("automationName","Uiautomator2");
