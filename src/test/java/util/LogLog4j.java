@@ -87,9 +87,14 @@ public class LogLog4j {
     }
 
     public static void debug(String message) {
-
-        Log.debug(message);
+        Log.info("");
+        Log.info("============= DEBUG =================");
+        Log.info(message);
+        Log.info("============= DEBUG =================");
+        Log.info("");
+        //Log.debug(message);
 
     }
+
 
 }

@@ -44,8 +44,10 @@ public class CreateNewActionHelper extends PageBase{
     WebElement cartPicture;
     @FindBy(id = "android:id/text1")
     WebElement openGalleryOption;
-    @FindBy(id = "com.android.documentsui:id/icon_thumb")
+    @FindBy(id = "com.google.android.documentsui:id/thumbnail")
     List<WebElement> picturesList;
+    @FindBy(xpath = "//*[@class = 'android.widget.RelativeLayout']")
+    List<WebElement> fullPicturesList;
     @FindBy(id = "club.conim.hahamim:id/btn_uploadPhoto")
     WebElement upLoadButton;
     @FindBy(id = "club.conim.hahamim:id/minimalVolume")
@@ -138,17 +140,26 @@ public class CreateNewActionHelper extends PageBase{
         waitUntilElementIsClickable(cartPicture,10);
         return this;
     }
-    public CreateNewActionHelper addPicture(){
+    public CreateNewActionHelper addPicture(String pictureName){
         log4j.method("CreateNewActionHelper, addPicture()");
         waitPicturesScreenIsLoaded();
         cartPicture.click();
         waitUntilElementIsClickable(openGalleryOption,5);
         openGalleryOption.click();
-        waitUntilElementsAreVisible(picturesList,10);
-        picturesList.get(0).click();
+        //waitUntilElementsAreVisible(picturesList,15);
+        waitUntilElementsArePresent(By.id("android:id/title"),10);
+        log4j.debug("Pictures on the page: " + driver.findElements(By.id("android:id/title")).size());
+        String pictureLayoutLocator = getPictureLayoutLocator(pictureName);
+        waitUntilElementIsClickable(By.xpath(pictureLayoutLocator),10);
+        log4j.debug("Pictures on the page after waiting: " + driver.findElements(By.id("android:id/title")).size());
+        driver.findElement(By.xpath(pictureLayoutLocator)).click();
         waitPicturesScreenIsLoaded();
         upLoadButton.click();
         waitUntilElementIsAbsent(By.id("club.conim.hahamim:id/btn_uploadPhoto"),15);
         return this;
+    }
+
+    private String getPictureLayoutLocator(String pictureName) {
+        return "//*[@text='" + pictureName + "']/../..";
     }
 }

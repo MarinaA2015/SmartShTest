@@ -30,7 +30,8 @@ public class CreateNewActionTests extends TestBase{
     @Test(dataProviderClass = DataProviders.class,dataProvider = "actionsCreating")
     public void createNewAction(String name, String category, String subCategory, String measure, String purchase,
                                 String priceLevel1, String priceLevel2, String priceLevel3, String price1,
-                                String price2, String price3, String basicPrice, String minimalValue, String maximalValue){
+                                String price2, String price3, String basicPrice, String minimalValue, String maximalValue,
+                                String picture){
         /*String name = "avocado666";
         String category = "Food";
         String subCategory = "Delicacies";
@@ -55,13 +56,14 @@ public class CreateNewActionTests extends TestBase{
                         minimalValue,maximalValue)
                 .pressForward()
                 .waitPicturesScreenIsLoaded()
-                .addPicture()
+                .addPicture(picture)
                 .pressForward();
         bpPage
                 .waitUntilPageIsLoaded()
-                .openMyActionsPage();
+                .logOut();
+                /*.openMyActionsPage();
         myActionsPage.waitUntilPageIsLoaded();
-        Assert.assertTrue(myActionsPage.actionsListContainsAction(name));
+        Assert.assertTrue(myActionsPage.actionsListContainsAction(name));*/
         }
 
 

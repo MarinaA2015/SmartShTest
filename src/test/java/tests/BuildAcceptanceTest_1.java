@@ -38,11 +38,11 @@ public class BuildAcceptanceTest_1 extends TestBase{
     public void acceptanceTest1(){
         //----- action creating --------
         Random gen = new Random();
-        String nameAction = "oil" + gen.nextInt(1000);
-        String category = "Food";
-        String subCategory = "Delicacies";
-        String measure = "kg";
-        String purchase = "Vegetables";
+        String nameAction = "молоко" + gen.nextInt(1000);
+        String category = "Продукты";
+        String subCategory = "Напитки";
+        String measure = "литр";
+        String purchase = "Молочка";
         String priceLevel1 = "5";
         String priceLevel2 = "10";
         String priceLevel3 = "20";
@@ -60,8 +60,9 @@ public class BuildAcceptanceTest_1 extends TestBase{
         String passwordMember2 = "123";
         String numberProduct1 = "5";
         String numberProduct2 = "8";
-        String commonInfo1 = "30.00 ₪ x 5.00  kg = 150.00 ₪, Levi May ";
-        String commonInfo2 = "30.00 ₪ x 8.00  kg = 240.00 ₪, Rina Kohan ";
+        String picture = "milk.png";
+        String commonInfo1 = "30,00 ₪ x 5,00  литр = 150,00 ₪, Levi May ";
+        String commonInfo2 = "30,00 ₪ x 8,00  литр = 240,00 ₪, Rina Kohan ";
 
         log4j.step("Business Partner: Login and create new action (" + nameAction + ")");
         loginPage.comeIn(LOGIN_BP,PASSWORD_BP);
@@ -75,7 +76,7 @@ public class BuildAcceptanceTest_1 extends TestBase{
                         minimalValue,maximalValue)
                 .pressForward()
                 .waitPicturesScreenIsLoaded()
-                .addPicture()
+                .addPicture(picture)
                 .pressForward();
 
         log4j.step(LOGIN_BP + " (Business Partner): Verify the created action in 'My Actions' by name (" + nameAction + ")");
