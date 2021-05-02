@@ -150,6 +150,7 @@ public class CreateNewActionHelper extends PageBase{
         waitUntilElementsArePresent(By.id("android:id/title"),10);
         log4j.debug("Pictures on the page: " + driver.findElements(By.id("android:id/title")).size());
         String pictureLayoutLocator = getPictureLayoutLocator(pictureName);
+        this.swipeUpToElement(By.xpath(pictureLayoutLocator),10);
         waitUntilElementIsClickable(By.xpath(pictureLayoutLocator),10);
         log4j.debug("Pictures on the page after waiting: " + driver.findElements(By.id("android:id/title")).size());
         driver.findElement(By.xpath(pictureLayoutLocator)).click();
