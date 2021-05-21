@@ -11,6 +11,7 @@ import util.LogLog4j;
 
 import java.time.Duration;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 abstract public class PageBase {
     //WebDriver driver;
@@ -163,21 +164,31 @@ abstract public class PageBase {
         Dimension size = driver.manage().window().getSize();
         int x = (int)(size.width * 0.5);
         int y1 = (int)(size.height * 0.8);
-        int y2 = (int)(size.height * 0.2);
+        int y2 = (int)(size.height * 0.3);
         action.press(PointOption.point(x,y1))
                 .waitAction()
                 .moveTo(PointOption.point(x,y2))
                 .release()
                 .perform();
     }
+    public void swipeUpToElement(By by, int maxTimes, int implWait){
+        driver.manage().timeouts().implicitlyWait(implWait,TimeUnit.SECONDS);
+        swipeUpToElement(by, maxTimes);
+        driver.manage().timeouts().implicitlyWait(0,TimeUnit.SECONDS);
+    }
 
     public void swipeUpToElement(By by, int maxTimes){
         int counter = 0;
+
         while(driver.findElements(by).size()==0 && counter < maxTimes){
             swipeUp();
             counter++;
         }
+        driver.manage().timeouts().implicitlyWait(0,TimeUnit.SECONDS);
     }
 
+    public void returnBack(){
+        driver.navigate().back();
+    }
 
 }

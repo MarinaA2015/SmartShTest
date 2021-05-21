@@ -2,6 +2,7 @@ package tests;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.*;
@@ -14,7 +15,8 @@ public class CreateNewActionTests extends TestBase{
     AuthErrorPageHelper authError;
     CreateNewActionHelper createNewAction;
 
-    @BeforeMethod
+
+    @BeforeClass
     public void initTests(){
         loginPage = PageFactory.initElements(driver, LoginPageHelper.class);
         bpPage = PageFactory.initElements(driver, HomePageHelper.class);
@@ -31,21 +33,8 @@ public class CreateNewActionTests extends TestBase{
     public void createNewAction(String name, String category, String subCategory, String measure, String purchase,
                                 String priceLevel1, String priceLevel2, String priceLevel3, String price1,
                                 String price2, String price3, String basicPrice, String minimalValue, String maximalValue,
-                                String picture){
-        /*String name = "avocado666";
-        String category = "Food";
-        String subCategory = "Delicacies";
-        String measure = "kg";
-        String purchase = "Vegetables";
-        String priceLevel1 = "5";
-        String priceLevel2 = "10";
-        String priceLevel3 = "20";
-        String price1 = "30";
-        String price2 = "25";
-        String price3 = "20";
-        String basicPrice = "35";
-        String minimalValue = "1";
-        String maximalValue = "50";*/
+                                String picture, String description){
+
 
         bpPage.openCreateNewAction();
         createNewAction
@@ -57,14 +46,16 @@ public class CreateNewActionTests extends TestBase{
                 .pressForward()
                 .waitPicturesScreenIsLoaded()
                 .addPicture(picture)
+                .addDescription(description)
                 .pressForward();
         bpPage
-                .waitUntilPageIsLoaded()
-                .logOut();
-                /*.openMyActionsPage();
+                .waitUntilPageIsLoaded();
+                /*.logOut();
+                .openMyActionsPage();
         myActionsPage.waitUntilPageIsLoaded();
         Assert.assertTrue(myActionsPage.actionsListContainsAction(name));*/
         }
+
 
 
 

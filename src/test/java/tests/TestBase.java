@@ -38,13 +38,13 @@ public class TestBase {
         capabilities.setCapability("platformName","Android");
         capabilities.setCapability("deviceName","AndroidTestDevice");
         //capabilities.setCapability("platformVersion", "9.0");
-        //capabilities.setCapability("platformVersion", "8.1.0");
-        capabilities.setCapability("platformVersion", "11.0");
+        capabilities.setCapability("platformVersion", "8.1.0");
+        //capabilities.setCapability("platformVersion", "11.0");
         capabilities.setCapability("appPackage", "club.conim.hahamim");
         capabilities.setCapability("appActivity",".activities.MainActivity");
         capabilities.setCapability("automationName","Uiautomator2");
         capabilities.setCapability("app",
-                "C:/Marina/TelRan/Auto/Practice/SmartShopping/SmartShTest/apk/konim-hahamim-v0.9.apk");
+                "C:/Marina/TelRan/Auto/Practice/SmartShopping/SmartShTest/apk/app-release.apk");
 
         //--- Adding listenersfor appium-----
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);

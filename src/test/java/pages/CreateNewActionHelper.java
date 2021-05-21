@@ -54,6 +54,8 @@ public class CreateNewActionHelper extends PageBase{
     WebElement minimalVolumeField;
     @FindBy(id = "club.conim.hahamim:id/maximalVolume")
     WebElement maximalVolumeField;
+    @FindBy(id = "club.conim.hahamim:id/editTextDetailInfo")
+    WebElement descriptionField;
 
     public CreateNewActionHelper(WebDriver driver) {
         super(driver);
@@ -146,21 +148,27 @@ public class CreateNewActionHelper extends PageBase{
         cartPicture.click();
         waitUntilElementIsClickable(openGalleryOption,5);
         openGalleryOption.click();
-        //waitUntilElementsAreVisible(picturesList,15);
         waitUntilElementsArePresent(By.id("android:id/title"),10);
         log4j.debug("Pictures on the page: " + driver.findElements(By.id("android:id/title")).size());
         String pictureLayoutLocator = getPictureLayoutLocator(pictureName);
-        this.swipeUpToElement(By.xpath(pictureLayoutLocator),10);
+        this.swipeUpToElement(By.xpath(pictureLayoutLocator),25,1);
         waitUntilElementIsClickable(By.xpath(pictureLayoutLocator),10);
         log4j.debug("Pictures on the page after waiting: " + driver.findElements(By.id("android:id/title")).size());
         driver.findElement(By.xpath(pictureLayoutLocator)).click();
         waitPicturesScreenIsLoaded();
         upLoadButton.click();
-        waitUntilElementIsAbsent(By.id("club.conim.hahamim:id/btn_uploadPhoto"),15);
+        waitUntilElementIsAbsent(By.id("club.conim.hahamim:id/btn_uploadPhoto"),25);
         return this;
     }
 
     private String getPictureLayoutLocator(String pictureName) {
         return "//*[@text='" + pictureName + "']/../..";
+    }
+
+    public CreateNewActionHelper addDescription(String description) {
+        waitUntilElementIsClickable(descriptionField,5);
+        editField(descriptionField,description);
+        this.returnBack();
+        return this;
     }
 }

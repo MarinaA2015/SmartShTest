@@ -32,7 +32,7 @@ public class DataProviders {
     public static Iterator<Object[]> actionsCreating() throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(
                 util.DataProviders.class
-                        .getResourceAsStream("/actionsCreating.data"), StandardCharsets.UTF_8));
+                        .getResourceAsStream("/import_corrected.csv"), StandardCharsets.UTF_8));
 
         List<Object[]> userData = new ArrayList<Object[]>();
         String line = in.readLine();
